@@ -10,13 +10,15 @@
     </head>
 <body>
     <div class="header">
-        <h3>Assignment 6 &laquo; Data Visualization Dashboard &raquo;</h3>
+        <h3>Netflix &laquo; Data Visualization Dashboard &raquo;</h3>
     </div>
     <!--  We included a basic HTML structure for the 3 graphs here. Feel free to change this if you'd like  -->
     <div class="row">
         <div class="col-lg-6">
             <div id="graph1"></div>
             <div id="graph2"></div><br/>
+            <button type="button" id="button1" class="btn btn-info" onclick="plotRuntimes(0)" title="Hi">Movies</button>
+            <button type="button" id="button2" class="btn btn-info" onclick="plotRuntimes(1)">TV Shows</button>
         </div>
         <div class="col-lg-6">
             <div id="graph3"></div>

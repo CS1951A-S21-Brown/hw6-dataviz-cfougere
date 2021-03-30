@@ -7,6 +7,31 @@
     margin: 0;
     padding-top: 20px;
     text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
 }
 
-/* Include any custom CSS styling here! */
+.btn-info {
+  background-color: #d9d9d9;
+  color: black;
+  border-color: black;
+  margin-left: 50px;
+  margin-top: -30px;
+}
+
+.btn-info:hover {
+  background-color: #4f0404;
+  color: white;
+  border-color:black;
+}
+
+.btn-info:focus {
+  background-color: #4f0404;
+  color: white;
+  border-color:black;
+  text-shadow:black;
+}
+
+#button1 {
+	margin-left: 250px;
+}
